@@ -1,0 +1,51 @@
+@import '../../theme/theme.scss';
+.products-search{
+    width: 100%;
+    textarea:hover, 
+    input:hover, 
+    textarea:active, 
+    input:active, 
+    textarea:focus, 
+    input:focus,
+    button:focus,
+    button:active,
+    button:hover,
+    label:focus,
+    .btn:active,
+    .btn.active
+    {
+        outline:0px !important;
+        -webkit-appearance:none;
+        box-shadow: none !important;
+    }
+    hr {
+        border: 0;
+        border-style: solid;
+        clear:both;
+        display:block;
+        width: 99%;               
+        background-color:$primary-green;
+        height: .3px;
+      }
+    .title-header-1{
+        text-align: left;
+        color: $primary-green;
+        
+    }
+    .title-header-2{
+        text-align: left;
+        color: $primary-green;
+    }
+    .input-primary{
+        border-color: $primary-green;
+        border-width: 1px;
+    }
+    .header-input{
+        align-self: start;
+        width: 40%;
+    }
+    .btn-primary{
+        color: $primary-light;
+        background: $primary-green;
+    }
+}

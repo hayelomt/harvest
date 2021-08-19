@@ -1,0 +1,50 @@
+@import '../../../theme/theme.scss';
+
+.signup-component {  
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  background-color: lightblue;
+  textarea:hover, 
+  input:hover, 
+  textarea:active, 
+  input:active, 
+  textarea:focus, 
+  input:focus,
+  button:focus,
+  button:active,
+  button:hover,
+  label:focus,
+  .btn:active,
+  .btn.active
+  {
+      outline:0px !important;
+      -webkit-appearance:none;
+      box-shadow: none !important;
+  }
+  
+  .harvest-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $light-green;
+    color: $primary-green;
+  }
+  
+  .form-container {
+    padding: 3rem;
+  
+    form {
+      input {
+        border: 0;
+        border-bottom: 2px solid silver;
+        &:focus {
+          border: 0;
+          box-shadow: 0ch;
+          border-bottom-color: $primary-green;
+        }
+      }
+    }
+  }
+}

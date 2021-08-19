@@ -1,0 +1,9 @@
+@import '../../theme/theme';
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  background-color: rgba(0, 255, 0, 0.4);
+}

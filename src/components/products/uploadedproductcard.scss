@@ -1,0 +1,12 @@
+.sidebar {
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  // height: 70vh;
+}
+
+.card-holder {
+  margin: 10px;
+  max-width: 250px;
+}

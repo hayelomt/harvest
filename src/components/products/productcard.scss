@@ -1,0 +1,71 @@
+@import '../../theme/theme.scss';
+.card-holder{
+  
+}
+.card-img {
+    
+  }
+  .card-body {
+    border: none;
+  }
+  .cardd {
+    width: inherit;
+    background-color: rgb(248, 248, 248);
+    border: none;
+    border-radius: 0%;
+    box-shadow: none;
+    margin: 2%;
+    &:hover {
+      background-color: #d7ff6b;
+      box-shadow: 1px 10px 15px 5px rgba($color: #747474, $alpha: 0.2);
+  
+      // .card-btn {
+      //   background-color: #ffffff;
+      //   border: #5cb85c;
+      //   color: #5cb85c;
+      // }
+    }
+  }
+  .card-title {
+    font-size: 1.3em;
+    color: rgb(15, 15, 15);
+  }
+  
+  .card-subtitle {
+    font-size: 1em;
+    color: rgb(15, 15, 15);
+  }
+  
+  .card-text {
+    font-size: 0.8em;
+    color: rgb(15, 15, 15);
+  }
+  
+  .card-btn {
+    background-color: #5cb85c;
+    border: #5cb85c;
+  }
+  
+  .provider-link {
+    text-decoration: none;
+    &:hover {
+      color: #5cb85c;
+      text-decoration: none;
+    }
+  }
+  
+  .carousel-ind {
+    // color: black;
+    // width: 8%;
+    margin-top: 15%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba($color: #383838, $alpha: 0.8);
+  }
+  
+  .more-btn {
+    width: 20%;
+    color: #5cb85c;
+  }
+  

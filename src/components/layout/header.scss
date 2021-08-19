@@ -1,0 +1,13 @@
+@import '../../theme/theme.scss';
+
+.navbar {
+  background-color: rgba($color: $primary, $alpha: 0.4);
+}
+
+a {
+  color: $secondary-dark;
+}
+
+a:hover {
+  color: rgb(58, 30, 30);
+}

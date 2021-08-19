@@ -1,0 +1,57 @@
+@import '../../theme/theme.scss';
+.product-component{
+    margin-left: 0;
+    width: 100%;
+    textarea:hover, 
+    input:hover, 
+    textarea:active, 
+    input:active, 
+    textarea:focus, 
+    input:focus,
+    button:focus,
+    button:active,
+    button:hover,
+    label:focus,
+    .btn:active,
+    .btn.active
+    {
+        outline:0px !important;
+        -webkit-appearance:none;
+        box-shadow: none !important;
+    }
+    hr {
+        border: 0;
+        border-style: solid;
+        clear:both;
+        display:block;
+        width: 99%;               
+        background-color:$primary-green;
+        height: .3px;
+      }
+    .product-card{
+        width: 20%;
+    }
+    .content{
+        padding: 2%;
+        align-items: flex-start;
+        border-top: 0
+    }
+    .title-header-1{
+        text-align: left;
+        color: $primary-green;
+        
+    }
+    .title-header-2{
+        text-align: left;
+        color: $primary-green;
+    }
+    .products{
+        align-self: center;
+        margin-right: 1%;
+    }
+    .active{
+        background: $primary-green;
+        color: $primary-light;
+        border-color: $primary-green;
+    }
+}

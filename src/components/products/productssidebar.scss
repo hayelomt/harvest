@@ -1,0 +1,58 @@
+@import '../../theme/theme.scss';
+.sidebar{
+    padding: 2%;
+    height: 150ch;
+    align-items: flex-start;
+    border-top:0;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color:  $primary-green;
+    background: $light-green;
+    textarea:hover, 
+    input:hover, 
+    textarea:active, 
+    input:active, 
+    textarea:focus, 
+    input:focus,
+    button:focus,
+    button:active,
+    button:hover,
+    label:focus,
+    .btn:active,
+    .btn.active
+    {
+        outline:0px !important;
+        -webkit-appearance:none;
+        box-shadow: none !important;
+    }
+    .title-header-1{
+        text-align: left;
+        color: $primary-green;
+        
+    }
+    .title-header-2{
+        text-align: left;
+        color: $primary-green;
+    }
+    .list-group{
+        border-style: solid;
+        border-color: $light-green;
+        border-width: .5px;
+    }
+    .list-group-item{
+        background: $light-green;
+        color: $primary-green;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .list-group-item:hover{
+        color: $primary-light;
+        background: $primary-green;
+        
+    }
+    .active{
+        background: $primary-green;
+        color: $primary-light;
+        border-color: $primary-green;
+    }        
+}

@@ -1,0 +1,55 @@
+@import '../../../theme/theme';
+
+.login-component{
+	padding: 20px;
+	margin: 5%;
+	textarea:hover, 
+	input:hover, 
+	textarea:active, 
+	input:active, 
+	textarea:focus, 
+	input:focus,
+	button:focus,
+	button:active,
+	button:hover,
+	label:focus,
+	.btn:active,
+	.btn.active
+	{
+		outline:0px !important;
+		-webkit-appearance:none;
+		box-shadow: none !important;
+	}
+	.login {
+
+		.borderless{
+				border: none;
+				border-color: transparent;
+				border-bottom: solid;
+				border-bottom-width: 2px;
+				border-bottom-color: $primary-green;
+		}
+		*:focus {
+				outline: none !important;
+		}
+		.button{
+				background-color: white;
+				border-color: $primary-green;
+				color: $primary-green;
+		}
+		.button:hover{
+				background-color: $primary-green;
+				border-color: $primary-green;
+				color: white;
+		}
+		.loginCard{
+				padding: 5%;
+				border-width: 1px;
+		}
+		.text-center{
+				text-align: center;
+		}
+	}
+}
+
+

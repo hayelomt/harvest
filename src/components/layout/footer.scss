@@ -1,0 +1,22 @@
+@import '../../theme/theme.scss';
+
+footer {
+  background: $background-dark;
+  color: $primary-dark;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content {
+  // display: flex;
+  // flex: 1;
+  margin: 2%;
+  margin-bottom: 0%;
+}
+
+.copyright {
+  padding-bottom: 2px;
+  margin-left: 40%;
+}

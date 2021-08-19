@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "name": "Alemu Bacha",
+      "email": "seller@gmail.com",
+      "password": "123456",
+      "passwordConfirm": "123456",
+      "userType": "SELLER",
+      "profile": {
+        "address": "Holeta",
+        "phone": "0911223355",
+        "avatarUrl": "/static/images/profiles/avatar.png",
+        "thumbnailUrl": "/static/images/profiles/thmbnail.png"
+      }
+    },
+    {
+      "name": "Kebed Gebru",
+      "email": "buyer@gmail.com",
+      "password": "123456",
+      "passwordConfirm": "123456",
+      "userType": "BUYER",
+      "profile": {
+        "address": "Holeta",
+        "phone": "0911223355",
+        "avatarUrl": "/static/images/profiles/avatar.png",
+        "thumbnailUrl": "/static/images/profiles/thmbnail.png"
+      }
+    }
+  ]
+}

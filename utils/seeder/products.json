@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "name": "Papaya",
+      "category": "FRUIT",
+      "quantity": 100,
+      "price": 30,
+      "imageUrl": "/static/assets/fruits.png"
+    },
+    {
+      "name": "Banana",
+      "category": "FRUIT",
+      "quantity": 200,
+      "price": 25,
+      "imageUrl": "/static/assets/fruits.png"
+    },
+    {
+      "name": "Salad",
+      "category": "VEGITABLES",
+      "quantity": 100,
+      "price": "30",
+      "imageUrl": "/static/assets/vegis.png"
+    },
+    {
+      "name": "Eggs",
+      "category": "DAIRY",
+      "quantity": 100,
+      "price": "30",
+      "imageUrl": "/static/assets/pots.png"
+    },
+    {
+      "name": "Papaya",
+      "category": "FRUIT",
+      "quantity": 100,
+      "price": 30,
+      "imageUrl": "/static/assets/fruits.png"
+    },
+    {
+      "name": "Banana",
+      "category": "FRUIT",
+      "quantity": 200,
+      "price": 25,
+      "imageUrl": "/static/assets/fruits.png"
+    },
+    {
+      "name": "Salad",
+      "category": "VEGITABLES",
+      "quantity": 100,
+      "price": "30",
+      "imageUrl": "/static/assets/vegis.png"
+    },
+    {
+      "name": "Eggs",
+      "category": "DAIRY",
+      "quantity": 100,
+      "price": "30",
+      "imageUrl": "/static/assets/pots.png"
+    },
+    {
+      "name": "Papaya",
+      "category": "FRUIT",
+      "quantity": 100,
+      "price": 30,
+      "imageUrl": "/static/assets/fruits.png"
+    },
+    {
+      "name": "Banana",
+      "category": "FRUIT",
+      "quantity": 200,
+      "price": 25,
+      "imageUrl": "/static/assets/fruits.png"
+    },
+    {
+      "name": "Salad",
+      "category": "VEGITABLES",
+      "quantity": 100,
+      "price": "30",
+      "imageUrl": "/static/assets/vegis.png"
+    },
+    {
+      "name": "Eggs",
+      "category": "DAIRY",
+      "quantity": 100,
+      "price": "30",
+      "imageUrl": "/static/assets/pots.png"
+    }
+ 
+ 
+  ]
+}
